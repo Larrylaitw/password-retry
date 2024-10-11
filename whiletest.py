@@ -23,5 +23,7 @@ while x > 0:
         print('Not correct')
         if x >0:
             print('You can try', x)
+        else:
+            print('Account locked, sorry~')
 
 
