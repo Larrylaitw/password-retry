@@ -20,6 +20,8 @@ while x > 0:
         break
     else:
         x = x - 1
-        print('Not correct and you can try', x)
+        print('Not correct')
+        if x >0:
+            print('You can try', x)
 
 
